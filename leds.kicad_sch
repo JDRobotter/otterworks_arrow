@@ -1,0 +1,4058 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "7b615930-65e1-4961-a856-14e63fad6b43")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 16.51 78.74) (xy 16.51 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "251a3e21-72ea-4c07-8e0b-671ebb46a7c8")
+	)
+	(wire
+		(pts
+			(xy 16.51 104.14) (xy 19.05 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c2cacb6-9fd1-4045-8caf-90d12d5fd9a0")
+	)
+	(wire
+		(pts
+			(xy 252.73 44.45) (xy 252.73 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c443393-3446-4aa5-85c0-8eea8fd18cfb")
+	)
+	(wire
+		(pts
+			(xy 252.73 78.74) (xy 16.51 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4120fc93-f53c-4b5c-aa58-26fee9173f9a")
+	)
+	(wire
+		(pts
+			(xy 16.51 48.26) (xy 16.51 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aaacbab-39de-4bfe-b1bc-308da7aad88e")
+	)
+	(wire
+		(pts
+			(xy 252.73 73.66) (xy 252.73 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "622a9c01-c3d5-4479-b391-6d9e87fa8c4a")
+	)
+	(wire
+		(pts
+			(xy 251.46 73.66) (xy 252.73 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5acc58d-5d0b-4b89-a1cc-cf6bc8ec13f4")
+	)
+	(wire
+		(pts
+			(xy 251.46 44.45) (xy 252.73 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8e93c2d-aac5-418f-9943-fd4f27939452")
+	)
+	(wire
+		(pts
+			(xy 16.51 107.95) (xy 16.51 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae341318-522e-4299-aef6-66c6f2b6154a")
+	)
+	(wire
+		(pts
+			(xy 252.73 48.26) (xy 16.51 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af72ac51-a15a-49cd-a77f-73c0ec8141f8")
+	)
+	(wire
+		(pts
+			(xy 255.27 107.95) (xy 16.51 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b22686f8-ffb4-4ee1-907f-100059ba0d8a")
+	)
+	(wire
+		(pts
+			(xy 16.51 73.66) (xy 19.05 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7cfa3d5-b8e7-4904-8bb0-3dceddf5c992")
+	)
+	(wire
+		(pts
+			(xy 16.51 133.35) (xy 19.05 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4305c35-0a82-4267-8f5c-9b0898962bb9")
+	)
+	(wire
+		(pts
+			(xy 251.46 104.14) (xy 255.27 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6a51c34-c835-4436-b560-23caa51419ab")
+	)
+	(wire
+		(pts
+			(xy 255.27 104.14) (xy 255.27 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7c2d54f-9e58-491e-8563-0a37b561377c")
+	)
+	(hierarchical_label "DIN"
+		(shape input)
+		(at 19.05 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9afb146a-9d93-411d-b2fc-770f34cda27f")
+	)
+	(hierarchical_label "DOUT"
+		(shape output)
+		(at 200.66 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e780b9b7-9ad1-4e0e-a5e1-2a47241dcfbd")
+	)
+	(sheet
+		(at 83.82 130.81)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "004ac5dc-b4fd-4811-9838-725d9e08237d")
+		(property "Sheetname" "ws2812_60"
+			(at 83.82 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 93.726 130.175 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 83.82 133.35 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "91465c0d-ccf7-428c-848f-da57f0325cc1")
+		)
+		(pin "DOUT" output
+			(at 96.52 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0794a762-cf87-4c34-b335-c4e6da0b8a2b")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "62")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 173.99 101.6)
+		(size 13.335 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0270e80a-60a6-4ab5-81d8-efe11ae253ad")
+		(property "Sheetname" "ws2812_49"
+			(at 173.99 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 183.896 100.965 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 173.99 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ec3ed4cb-c00b-46c9-95a4-d1faa11c810e")
+		)
+		(pin "DOUT" output
+			(at 187.325 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a7527282-65fe-4806-a690-34fb6fa5f2bc")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "51")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.025 41.91)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "05a2ecf1-32c4-4685-a971-b8b0deae829b")
+		(property "Sheetname" "ws2812_15"
+			(at 200.025 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 209.931 41.275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 200.025 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e718c798-8f40-40cd-8e92-ea3fbc9d0949")
+		)
+		(pin "DOUT" output
+			(at 212.725 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6f150ed1-49f4-4908-ae49-e2fe4f341a21")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 96.52 41.91)
+		(size 13.335 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "07b00f24-1aaf-4660-8777-1477c5ebea88")
+		(property "Sheetname" "ws2812_7"
+			(at 96.52 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 106.426 41.275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 96.52 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "43eda0f5-1021-422f-9baa-dc3533378b8b")
+		)
+		(pin "DOUT" output
+			(at 109.855 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d8c4b23f-e8fd-4545-877d-7afab050ed94")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 101.6)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "080d0ce8-23c8-4575-afee-26a9adc4a1ab")
+		(property "Sheetname" "ws2812_41"
+			(at 71.12 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 81.026 100.965 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 71.12 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "28d3d35d-194f-4b10-b060-0e87e8ae4789")
+		)
+		(pin "DOUT" output
+			(at 83.82 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "304ee5cd-a7cd-4362-911b-c532440e0763")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "43")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.325 71.12)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0ca3e0ec-f550-4b11-8ba4-dbc07e7fda0e")
+		(property "Sheetname" "ws2812_32"
+			(at 187.325 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 197.231 70.485 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 187.325 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "522f62b1-ac73-4fc7-b3d8-f993dfede29c")
+		)
+		(pin "DOUT" output
+			(at 200.025 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dc67193a-e28a-4719-9bea-99da61f51e91")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "34")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 238.76 41.91)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0da4e426-bf0b-4dec-979c-a6e9ea69216b")
+		(property "Sheetname" "ws2812_18"
+			(at 238.76 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 248.666 41.275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 238.76 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "460a72ee-d4a1-47cc-b52a-2c6d3ab4852f")
+		)
+		(pin "DOUT" output
+			(at 251.46 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1a3edc58-d444-41cd-8a32-74dde0309f8a")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 173.99 41.91)
+		(size 13.335 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0de03c5e-6d50-4c14-a744-634f2b417211")
+		(property "Sheetname" "ws2812_13"
+			(at 173.99 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 183.896 41.275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 173.99 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9a632dd6-3678-41ef-b425-390a214b1e09")
+		)
+		(pin "DOUT" output
+			(at 187.325 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c0a7d7b6-e2cf-48c8-b229-8aee3aa488a0")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 57.785 41.91)
+		(size 13.335 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1096179a-c659-4991-aa84-53822458846c")
+		(property "Sheetname" "ws2812_4"
+			(at 57.785 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 67.691 41.275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 57.785 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9f4e6eaa-9631-4b3e-98aa-3daaf86a2336")
+		)
+		(pin "DOUT" output
+			(at 71.12 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e03d7549-cb27-4f5a-bef0-aee9fc67a420")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.855 101.6)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "180310a7-d593-4091-a783-27195d37394e")
+		(property "Sheetname" "ws2812_44"
+			(at 109.855 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 119.761 100.965 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 109.855 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "70498921-165e-4817-9ba6-902e37100919")
+		)
+		(pin "DOUT" output
+			(at 122.555 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4b9603d2-072f-4946-b9b4-98cfe818acea")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "46")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 135.255 71.12)
+		(size 13.335 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1cf310a3-7a6b-43e2-b328-11417900db3d")
+		(property "Sheetname" "ws2812_28"
+			(at 135.255 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 145.161 70.485 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 135.255 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a4d01eed-e59c-4dff-886e-bdcb34520af2")
+		)
+		(pin "DOUT" output
+			(at 148.59 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "619e42c7-3346-4227-8e63-ef130570afad")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "30")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 57.785 71.12)
+		(size 13.335 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "22ce01df-b980-487a-9809-d1eb725477b1")
+		(property "Sheetname" "ws2812_22"
+			(at 57.785 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 67.691 70.485 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 57.785 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8a766ee3-608f-4314-8395-1b0ef62d4760")
+		)
+		(pin "DOUT" output
+			(at 71.12 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "21451968-fba9-40bf-95ca-87abd4110d86")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "24")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 45.085 101.6)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "24779915-c070-401b-9888-1dfd4d6a3b21")
+		(property "Sheetname" "ws2812_39"
+			(at 45.085 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 54.991 100.965 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 45.085 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a0c300ce-fa39-4eb1-ace8-ffbe40eae5dc")
+		)
+		(pin "DOUT" output
+			(at 57.785 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4447a5bf-c185-4535-bc13-675fc956bba5")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "41")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.855 130.81)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "299c5121-6258-42ec-ac86-a62153abb681")
+		(property "Sheetname" "ws2812_62"
+			(at 109.855 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 119.761 130.175 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 109.855 133.35 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a002a071-10c8-454d-83ec-32b917c67a5d")
+		)
+		(pin "DOUT" output
+			(at 122.555 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6d14027d-8d06-45b4-94a9-45af0355f4a9")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "64")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 45.085 130.81)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2a59b91e-b8ed-4f06-882e-2d5aa8aedd30")
+		(property "Sheetname" "ws2812_57"
+			(at 45.085 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 54.991 130.175 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 45.085 133.35 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cded3961-3f80-40e5-8958-f9b6e4bc6f75")
+		)
+		(pin "DOUT" output
+			(at 57.785 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "941e9031-c3bf-4b9f-b2fa-ba21402150a6")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "59")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 41.91)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2d0cbee8-a9cb-4651-8461-f8afa85be2d3")
+		(property "Sheetname" "ws2812_5"
+			(at 71.12 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 81.026 41.275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 71.12 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b898356b-f7c6-48ae-8519-6885d75d12c7")
+		)
+		(pin "DOUT" output
+			(at 83.82 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "961a4ced-cb3b-41a7-933f-d23b4eebfaa5")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 83.82 41.91)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2fc557e3-e60e-415c-b61d-fdb2043bab3f")
+		(property "Sheetname" "ws2812_6"
+			(at 83.82 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 93.726 41.275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 83.82 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e6e73baa-f2f6-4bfd-aff8-ddc2bd8d958b")
+		)
+		(pin "DOUT" output
+			(at 96.52 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e6f372bd-8979-41d0-b7a5-e3eaa90e4c25")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 161.29 71.12)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2fe88ed3-e2c2-4bb5-bcd3-83b36afcb555")
+		(property "Sheetname" "ws2812_30"
+			(at 161.29 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 171.196 70.485 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 161.29 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a8506b14-d58f-4bb4-a6b0-906e32789408")
+		)
+		(pin "DOUT" output
+			(at 173.99 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "71808407-abb8-4834-be8d-4e85fcd4b315")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "32")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 32.385 130.81)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "31b947d4-f21d-49ed-b54f-6bc559189666")
+		(property "Sheetname" "ws2812_56"
+			(at 32.385 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 42.291 130.175 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 32.385 133.35 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9eff971c-15f9-4a90-bf79-d4ba03c2e97d")
+		)
+		(pin "DOUT" output
+			(at 45.085 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1e848ab8-fe63-413f-8c57-950b9d36e57e")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "58")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 122.555 101.6)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "32e88c84-56bc-4676-a2ec-f0c1d1f30ee3")
+		(property "Sheetname" "ws2812_45"
+			(at 122.555 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 132.461 100.965 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 122.555 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8a5df341-42db-45a0-9e6b-672629ef2fbc")
+		)
+		(pin "DOUT" output
+			(at 135.255 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "da099e1b-64cf-47b8-96ed-30d63434d48d")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "47")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.855 41.91)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "354f9b26-dd27-458a-886b-79852159372e")
+		(property "Sheetname" "ws2812_8"
+			(at 109.855 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 119.761 41.275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 109.855 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "81971925-a3fc-4571-b6fb-3b71e0436d14")
+		)
+		(pin "DOUT" output
+			(at 122.555 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "72f07b0e-5ded-47ff-8a9d-8a70b8414ac7")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.325 41.91)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "366a328b-a06b-42fc-a0d7-c4880187ec18")
+		(property "Sheetname" "ws2812_14"
+			(at 187.325 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 197.231 41.275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 187.325 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6d6b0682-8638-4b7d-96da-5ec6dfc0a4e1")
+		)
+		(pin "DOUT" output
+			(at 200.025 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1fa463d0-d8af-41c9-a14d-cf4b4b7b4ec3")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 173.99 71.12)
+		(size 13.335 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "36a11da8-5d77-464c-9acf-db34faa2a04b")
+		(property "Sheetname" "ws2812_31"
+			(at 173.99 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 183.896 70.485 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 173.99 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "eec8c52e-4616-4d91-b941-c5e98332a36e")
+		)
+		(pin "DOUT" output
+			(at 187.325 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "acf51b9d-6d91-4b83-819e-e91a61a7f85f")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "33")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 238.76 71.12)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "36c04daf-ec31-4d50-9b90-6fe6cfc05eec")
+		(property "Sheetname" "ws2812_36"
+			(at 238.76 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 248.666 70.485 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 238.76 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e118124d-bda9-41e2-b616-d44a9faad8a3")
+		)
+		(pin "DOUT" output
+			(at 251.46 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "55645e15-ded9-4d99-b852-bf7e2ec39b4e")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "38")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.325 101.6)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3b5871c2-c44b-450f-b6cf-c43d9bb1399e")
+		(property "Sheetname" "ws2812_50"
+			(at 187.325 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 197.231 100.965 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 187.325 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4959154b-8a85-470b-90f4-c80253e4b01f")
+		)
+		(pin "DOUT" output
+			(at 200.025 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d2bccc59-ffea-4541-a283-f0420c05d623")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "52")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 57.785 130.81)
+		(size 13.335 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3d34e20a-8250-4487-96ff-7e677ec3f0d6")
+		(property "Sheetname" "ws2812_58"
+			(at 57.785 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 67.691 130.175 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 57.785 133.35 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "73bb93e4-cb8d-44dc-9465-4aed52b7198e")
+		)
+		(pin "DOUT" output
+			(at 71.12 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a5d8fa0a-f89a-45c5-884f-c7a28c770988")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "60")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 96.52 71.12)
+		(size 13.335 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "40a8579a-2ed6-4aa8-b213-f773248f6b5f")
+		(property "Sheetname" "ws2812_25"
+			(at 96.52 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 106.426 70.485 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 96.52 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "aa9244f5-3e6e-48a8-8e6e-da11613e5711")
+		)
+		(pin "DOUT" output
+			(at 109.855 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7f98d1ec-f1fa-4a13-ab6b-71ef375ded09")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "27")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 83.82 101.6)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "44699033-519b-421e-95c7-0c800c00923a")
+		(property "Sheetname" "ws2812_42"
+			(at 83.82 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 93.726 100.965 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 83.82 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "628bc214-8051-4a69-9fe5-014c2662925f")
+		)
+		(pin "DOUT" output
+			(at 96.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a5fea62a-1eb4-4391-89fc-917aceaace83")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "44")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 122.555 130.81)
+		(size 13.335 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4835c996-8507-4df5-b7de-90b8c0af2758")
+		(property "Sheetname" "ws2812_63"
+			(at 122.555 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 132.461 130.175 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 122.555 133.35 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2d4a5258-8049-4748-96ec-88ad3db87630")
+		)
+		(pin "DOUT" output
+			(at 135.89 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e4f7a392-1107-47bf-8b5d-d777cb8340fa")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "65")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 161.29 41.91)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "49f4ad06-d7a2-44b1-a333-1d8711f03fd4")
+		(property "Sheetname" "ws2812_12"
+			(at 161.29 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 171.196 41.275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 161.29 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "01c6d72a-1b52-44a1-8848-e49969ef1101")
+		)
+		(pin "DOUT" output
+			(at 173.99 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "947a1347-635c-4631-8601-f54982260d12")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 161.29 130.81)
+		(size 13.335 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "529fa454-0d88-4a9c-8cf7-09f035e334f1")
+		(property "Sheetname" "ws2812_66"
+			(at 161.29 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 171.196 130.175 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 161.29 133.35 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "abc1701f-832a-4e8e-9c10-f7cddb118d5f")
+		)
+		(pin "DOUT" output
+			(at 174.625 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b88497e1-6a74-464a-a168-10910a56f5b0")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "68")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.025 101.6)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "52c3ee60-be32-44bf-bb0b-2bf6d521311f")
+		(property "Sheetname" "ws2812_51"
+			(at 200.025 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 209.931 100.965 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 200.025 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "46204e99-5f16-42af-babc-d7e343b63943")
+		)
+		(pin "DOUT" output
+			(at 212.725 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "37a7eb45-9090-41b3-bdaa-225f7d7475d3")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "53")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 122.555 41.91)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "56e9d077-d677-4180-acc6-dc90f1883ee7")
+		(property "Sheetname" "ws2812_9"
+			(at 122.555 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 132.461 41.275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 122.555 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f16514b7-239a-467f-9d79-d6607d6c14f3")
+		)
+		(pin "DOUT" output
+			(at 135.255 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8c543098-a6a3-4145-8d43-c303271da6ca")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 135.255 41.91)
+		(size 13.335 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5ef32d53-d7a9-4a43-8262-eb6c86f0beb7")
+		(property "Sheetname" "ws2812_10"
+			(at 135.255 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 145.161 41.275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 135.255 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e88019f3-f7cf-4091-a887-07ac87b3aca5")
+		)
+		(pin "DOUT" output
+			(at 148.59 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "20f0ca5b-956f-4fbd-9d30-07bab26aaed3")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 45.085 41.91)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "609dc7c0-24d5-4b5d-ae93-429ef7d6ba7b")
+		(property "Sheetname" "ws2812_3"
+			(at 45.085 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 54.991 41.275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 45.085 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "019b3e9c-f473-4926-b657-aba40b6155a4")
+		)
+		(pin "DOUT" output
+			(at 57.785 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b20eed3d-0f8f-4c0f-b12b-80eaa949e480")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 212.725 41.91)
+		(size 13.335 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "61bd24d7-de5e-41fd-943a-67f9847a96e0")
+		(property "Sheetname" "ws2812_16"
+			(at 212.725 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 222.631 41.275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 212.725 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a0f299c2-8939-4456-90ad-cbe944e1be90")
+		)
+		(pin "DOUT" output
+			(at 226.06 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9f71a1d0-63d2-4524-8298-66034604e368")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 130.81)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "64930d1b-d712-471e-8011-3989726d2e49")
+		(property "Sheetname" "ws2812_59"
+			(at 71.12 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 81.026 130.175 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 71.12 133.35 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "61da75fa-1ede-40ea-ac10-64dfa5402112")
+		)
+		(pin "DOUT" output
+			(at 83.82 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ed04b9a4-873f-465e-84e3-ed29459a560a")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "61")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 45.085 71.12)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6e0722b3-fab3-4569-a164-000cff23584e")
+		(property "Sheetname" "ws2812_21"
+			(at 45.085 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 54.991 70.485 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 45.085 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fb60a591-b10b-4e38-9a34-c5a3d810c9cf")
+		)
+		(pin "DOUT" output
+			(at 57.785 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b7cac7ec-0bb3-412f-abb4-f25bcde94bcc")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "23")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 71.12)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "70da79a9-8c09-45f5-9123-be6d89406a5f")
+		(property "Sheetname" "ws2812_23"
+			(at 71.12 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 81.026 70.485 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 71.12 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "69696a29-418b-4c1e-be19-a5f6069007e4")
+		)
+		(pin "DOUT" output
+			(at 83.82 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "19fdfe76-f33e-4320-bae9-67dc03de761e")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "25")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 148.59 101.6)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "73591576-05c1-4d8a-bb38-a7ec0ab9cbfd")
+		(property "Sheetname" "ws2812_47"
+			(at 148.59 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 158.496 100.965 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 148.59 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "811e5956-5bba-4b0a-872d-3d7e5a1b7436")
+		)
+		(pin "DOUT" output
+			(at 161.29 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ad05715f-6fd3-4d4a-986f-c9959a80971f")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "49")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 212.725 101.6)
+		(size 13.335 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "779cc612-aba0-43bb-9c15-27d71eda3ad6")
+		(property "Sheetname" "ws2812_52"
+			(at 212.725 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 222.631 100.965 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 212.725 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3902b684-fd32-4a2e-acdf-bc02a0fcbf85")
+		)
+		(pin "DOUT" output
+			(at 226.06 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cc571fb9-9817-4636-9746-a925ac949679")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "54")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.325 130.81)
+		(size 13.335 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "785d7199-001d-44bc-aadd-9175abd38d26")
+		(property "Sheetname" "ws2812_68"
+			(at 187.325 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 197.231 130.175 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 187.325 133.35 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fdf47f87-2f1c-4510-8591-962831e6d6f3")
+		)
+		(pin "DOUT" output
+			(at 200.66 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5222a549-cd1c-40fe-8848-2f02ecca0ee6")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "70")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 41.91)
+		(size 13.335 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7e8789b8-5919-44fa-add4-9f729ed5a093")
+		(property "Sheetname" "ws2812_1"
+			(at 19.05 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 28.956 41.275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 19.05 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f9d374d8-7814-47c8-94f2-14e6cf15320b")
+		)
+		(pin "DOUT" output
+			(at 32.385 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "47589fe4-1834-42a5-a6f1-6d334ce6e9bb")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 96.52 130.81)
+		(size 13.335 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "882022e9-8aad-4f18-8fb4-f80d0386d925")
+		(property "Sheetname" "ws2812_61"
+			(at 96.52 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 106.426 130.175 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 96.52 133.35 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dadbb03d-9123-4c65-a755-fc03eee2eb18")
+		)
+		(pin "DOUT" output
+			(at 109.855 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "de051ad7-b565-49fb-a85d-78f9e2ddf548")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "63")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 161.29 101.6)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8b480455-7846-49d9-91e9-d461df1b3e46")
+		(property "Sheetname" "ws2812_48"
+			(at 161.29 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 171.196 100.965 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 161.29 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "487cc878-1f7c-4878-a39c-9a482acae048")
+		)
+		(pin "DOUT" output
+			(at 173.99 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "81ecb90b-0b89-4b1f-a0c3-d454ffad63e6")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "50")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 238.76 101.6)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8cf0a93d-2bc1-451b-8f6c-5ee5d1de2b0d")
+		(property "Sheetname" "ws2812_54"
+			(at 238.76 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 248.666 100.965 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 238.76 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7c1ff4b2-8bc9-4d73-8b4e-065c53e705a5")
+		)
+		(pin "DOUT" output
+			(at 251.46 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1976833c-0a17-462f-86d9-a4d1ab29aea9")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "56")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 57.785 101.6)
+		(size 13.335 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "92995301-d5d7-42ba-be26-0f0ab60aae5a")
+		(property "Sheetname" "ws2812_40"
+			(at 57.785 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 67.691 100.965 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 57.785 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dc0fb86f-a75d-43dd-bc45-d972543d8f14")
+		)
+		(pin "DOUT" output
+			(at 71.12 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a3a15dc6-2fad-4bfd-b8c3-e4695a7a94f3")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "42")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 226.06 71.12)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "95bdafc5-1c3b-48dd-ba50-dd220817fc14")
+		(property "Sheetname" "ws2812_35"
+			(at 226.06 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 235.966 70.485 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 226.06 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "733a82c5-0b5c-40cb-93a3-0e1189bc5de0")
+		)
+		(pin "DOUT" output
+			(at 238.76 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2bbdf38b-539e-41f4-b469-4518e26a2a21")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "37")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 174.625 130.81)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9e99fb7e-41ff-4614-b200-3bd6f5381b12")
+		(property "Sheetname" "ws2812_67"
+			(at 174.625 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 184.531 130.175 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 174.625 133.35 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "885cf5c1-74f0-4cda-9e5c-4361c0438c4e")
+		)
+		(pin "DOUT" output
+			(at 187.325 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e5927706-f01c-4c95-af58-bce43488d4b9")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "69")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 135.255 101.6)
+		(size 13.335 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a56ba037-6fcb-4add-b348-552a4b2a2b44")
+		(property "Sheetname" "ws2812_46"
+			(at 135.255 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 145.161 100.965 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 135.255 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d659431a-fa4c-4654-9050-71242134dd85")
+		)
+		(pin "DOUT" output
+			(at 148.59 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ba56f033-5442-4345-9e70-77aedeec5a19")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "48")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 212.725 71.12)
+		(size 13.335 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a6aed84b-7289-4e36-b058-3d584a8222c3")
+		(property "Sheetname" "ws2812_34"
+			(at 212.725 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 222.631 70.485 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 212.725 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e5fe4315-3c66-49b2-8e10-deee4bfe6ab8")
+		)
+		(pin "DOUT" output
+			(at 226.06 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "84c4368d-aa20-4c7b-b89d-ce742aa1de2f")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "36")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 122.555 71.12)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a9044d13-9099-4446-b571-493f7bbbb24e")
+		(property "Sheetname" "ws2812_27"
+			(at 122.555 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 132.461 70.485 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 122.555 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "818feb5f-d687-4ea9-a1f4-c7e9cf66e2e1")
+		)
+		(pin "DOUT" output
+			(at 135.255 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a416b178-aa43-472f-8e64-e4117663b4eb")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "29")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 32.385 101.6)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a949345b-cd95-476b-b5d7-3aa4282d1d1a")
+		(property "Sheetname" "ws2812_38"
+			(at 32.385 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 42.291 100.965 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 32.385 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3327b9be-00cb-4732-95b0-66c730b9f135")
+		)
+		(pin "DOUT" output
+			(at 45.085 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "72d09e7e-b326-43d5-aec5-171419a2d126")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "40")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 32.385 71.12)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "abffd5dc-f320-49aa-89ef-0a9d27f25606")
+		(property "Sheetname" "ws2812_20"
+			(at 32.385 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 42.291 70.485 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 32.385 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "26d1bfb6-a7eb-49e6-b805-fc65afdaa40e")
+		)
+		(pin "DOUT" output
+			(at 45.085 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "361e460c-dccb-4145-8d8c-f20449264126")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "22")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 130.81)
+		(size 13.335 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b13de428-c48d-4d71-891a-27f9ea1ef7c4")
+		(property "Sheetname" "ws2812_55"
+			(at 19.05 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 28.956 130.175 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 19.05 133.35 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2d8a30b7-d3ae-449d-8ed6-5594a61f6eec")
+		)
+		(pin "DOUT" output
+			(at 32.385 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e3a78856-8cd7-493c-9ed8-b0925515589d")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "57")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 135.89 130.81)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b50a95da-f3aa-4ed1-8e83-0de90ecd46d9")
+		(property "Sheetname" "ws2812_64"
+			(at 135.89 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 145.796 130.175 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 135.89 133.35 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "80780d48-ebcc-4c46-a521-9da4e259ca7a")
+		)
+		(pin "DOUT" output
+			(at 148.59 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "152d4fc8-dbd2-4689-82ce-3fcff29eba2a")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "66")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 71.12)
+		(size 13.335 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c2b80149-2fdc-4493-b6fb-4d300b77f83b")
+		(property "Sheetname" "ws2812_19"
+			(at 19.05 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 28.956 70.485 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 19.05 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cf08a96c-bb5b-489d-859f-9b494de5a096")
+		)
+		(pin "DOUT" output
+			(at 32.385 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2dd7e45d-7a4f-42c6-8a17-51cc0f9d6d64")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 148.59 41.91)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c2bbcdcc-ffbd-4e44-8ea5-e7a38ebe2107")
+		(property "Sheetname" "ws2812_11"
+			(at 148.59 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 158.496 41.275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 148.59 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "911bf07e-fb4a-420a-82ea-3df06bc8ba9b")
+		)
+		(pin "DOUT" output
+			(at 161.29 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "257217d8-d55c-41fe-a9e7-e3b2218ecec7")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 101.6)
+		(size 13.335 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c9a5d9cf-4646-4b20-894b-54f631c463a0")
+		(property "Sheetname" "ws2812_37"
+			(at 19.05 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 28.956 100.965 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 19.05 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "47dbe7e1-804d-406f-a261-f7c8e1290b82")
+		)
+		(pin "DOUT" output
+			(at 32.385 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d7559c8a-2399-43e2-8d9b-72d03d25b7c7")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "39")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 96.52 101.6)
+		(size 13.335 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cd600344-849b-490b-bd9f-1f105757e03c")
+		(property "Sheetname" "ws2812_43"
+			(at 96.52 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 106.426 100.965 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 96.52 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "094ee9d7-fa3d-419c-ae46-7271b82322e9")
+		)
+		(pin "DOUT" output
+			(at 109.855 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8e4ac21d-564e-4d9f-8423-f44da0b3da49")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "45")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 226.06 101.6)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cdfd900d-9714-48dd-8c19-eb8bc2ed80ba")
+		(property "Sheetname" "ws2812_53"
+			(at 226.06 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 235.966 100.965 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 226.06 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3f55739d-e265-4b82-bb56-0686b016620e")
+		)
+		(pin "DOUT" output
+			(at 238.76 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cdd404e5-3270-4cd4-a19f-816faf2d9e1e")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "55")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 83.82 71.12)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d0f6bc52-c740-4f07-b3b2-1dcec095156e")
+		(property "Sheetname" "ws2812_24"
+			(at 83.82 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 93.726 70.485 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 83.82 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6c42cb99-9a62-402c-968b-9f33e94c35b8")
+		)
+		(pin "DOUT" output
+			(at 96.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b82adc54-cae9-4578-a868-11aed849f099")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "26")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.855 71.12)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d11f2b6e-318a-4877-a855-985483102ed4")
+		(property "Sheetname" "ws2812_26"
+			(at 109.855 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 119.761 70.485 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 109.855 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "05487172-536d-4130-8c9e-20a7c0a2ab0c")
+		)
+		(pin "DOUT" output
+			(at 122.555 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9e6f685d-b673-4e53-9585-e778d8101f7e")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "28")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 148.59 71.12)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d1a803df-2017-41c6-ae35-341d4c9a5bab")
+		(property "Sheetname" "ws2812_29"
+			(at 148.59 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 158.496 70.485 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 148.59 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "106f6de7-33c6-47ee-a1aa-77c534797776")
+		)
+		(pin "DOUT" output
+			(at 161.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5f293664-2f7c-4380-af72-346e394705cd")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "31")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 32.385 41.91)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d4132893-acbf-4e67-9920-9cce5eb22538")
+		(property "Sheetname" "ws2812_2"
+			(at 32.385 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 42.291 41.275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 32.385 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6cee7a68-6be7-46f4-8f86-870723d398a7")
+		)
+		(pin "DOUT" output
+			(at 45.085 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "de01c465-9985-47f4-9242-d49833237227")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 226.06 41.91)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e64fdf0a-9474-44c8-a263-f66e7aa23a42")
+		(property "Sheetname" "ws2812_17"
+			(at 226.06 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 235.966 41.275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 226.06 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "20d99701-9ace-42c6-82d2-dedc286f0bf2")
+		)
+		(pin "DOUT" output
+			(at 238.76 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7d3a1f79-5e87-44e7-a6a2-745001166651")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 148.59 130.81)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eb3ec0ed-78d0-4080-adb2-bbcbde19da83")
+		(property "Sheetname" "ws2812_65"
+			(at 148.59 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 158.496 130.175 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 148.59 133.35 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "31e179ec-992d-46fa-bd72-ce847fb39f4b")
+		)
+		(pin "DOUT" output
+			(at 161.29 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bb862be4-4695-4f52-a169-888c52ff395f")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "67")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.025 71.12)
+		(size 12.7 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f322440c-5ed2-4cb5-bd95-479021d2b1d3")
+		(property "Sheetname" "ws2812_33"
+			(at 200.025 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ws2812.kicad_sch"
+			(at 209.931 70.485 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 200.025 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3efd7221-3568-4ac8-b521-a66e91f6193a")
+		)
+		(pin "DOUT" output
+			(at 212.725 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "87639d30-e54e-4894-9fe0-ffafc89527d1")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb/d9ffb041-5649-4844-b811-06fdd3217658"
+					(page "35")
+				)
+			)
+		)
+	)
+)
