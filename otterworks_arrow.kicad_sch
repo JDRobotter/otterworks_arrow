@@ -1068,6 +1068,27 @@
 		)
 		(uuid "0c2c70ee-b48b-4428-b1ac-a8d2fe033e08")
 	)
+	(wire
+		(pts
+			(xy 64.77 104.14) (xy 107.95 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6dbada6-9a55-4b17-b00a-764f769c0d70")
+	)
+	(text "TODO\n- accel / gyro\n- ambient light detector\n- battery level"
+		(exclude_from_sim no)
+		(at 24.13 32.004 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(justify left)
+		)
+		(uuid "24dc3e61-eabc-49bf-939d-a697b1ebfe12")
+	)
 	(symbol
 		(lib_id "MCU_ST_STM32F0:STM32F030C6Tx")
 		(at 49.53 121.92 0)
@@ -1273,6 +1294,64 @@
 				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb"
 					(reference "U1")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 107.95 96.52)
+		(size 26.035 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "99aec986-ae94-430b-8a95-362be658671e")
+		(property "Sheetname" "leds1"
+			(at 107.95 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "leds.kicad_sch"
+			(at 107.95 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DOUT" output
+			(at 133.985 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "23a987e7-d736-4fa1-88c5-1ed8b309c9c6")
+		)
+		(pin "DIN" input
+			(at 107.95 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9ff7c8ef-91f4-4453-8464-9fb273e73f86")
+		)
+		(instances
+			(project "otterworks_arrow"
+				(path "/4b10177f-59fb-4d44-b63c-4086913e7acb"
+					(page "71")
 				)
 			)
 		)
